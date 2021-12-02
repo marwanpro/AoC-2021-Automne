@@ -56,7 +56,7 @@ public:
 	static void runChallenge()
 	{
 		std::vector<std::string> day02data = parseFile<std::string>("datasample/day02.txt");
-		//std::cout << "Part 1 Answer: " << part1_solver(day02data) << std::endl;
+		std::cout << "Part 1 Answer: " << part1_solver(day02data) << std::endl;
 		std::cout << "Part 2 Answer: " << part2_solver(day02data) << std::endl;
 	}
 };
